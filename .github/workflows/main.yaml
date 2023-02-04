@@ -56,7 +56,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.projectKey=Django
+          -Dsonar.projectKey=Sonar
 
   integration:
     runs-on: ubuntu-20.04
